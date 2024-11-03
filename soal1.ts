@@ -1,3 +1,5 @@
+// MUHAMAD SIROJUDIN - 043922682
+
 // Definisikan konstanta mulai, akhir, dan langkah. Merujuk pada soal: awal = 1; akhir = 100; langkah = 10;
 const mulai = 1; // Dimulai dari angka 1
 const akhir = 100; // Hingga angka 100

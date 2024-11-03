@@ -1,3 +1,6 @@
+// MUHAMAD SIROJUDIN - 043922682
+
+// Buat fungsi untuk menampilkan angka berdasarkan NIM
 function tampilkanAngkaBerdasarkanNIM(nim: string) {
   // Nilai akhir pengulangan berdasarkan soal
   const nilaiAkhir = 20;
@@ -13,6 +16,8 @@ function tampilkanAngkaBerdasarkanNIM(nim: string) {
   if (angkaTerakhir % 2 === 0) {
     // Genap
     let i = nilaiAwal;
+
+    // Kode akan dijalnkan setidaknya sekali walaupun i <= nilaiAkhir tidak terpenuhi
     do {
       console.log(i);
       i++;
@@ -20,6 +25,8 @@ function tampilkanAngkaBerdasarkanNIM(nim: string) {
   } else {
     // Ganjil
     let i = nilaiAwal;
+
+    // Kode tidak akan dijalankan ketika i <= nilaiAkhir tidak terpenuhi
     while (i <= nilaiAkhir) {
       console.log(i);
       i++;
